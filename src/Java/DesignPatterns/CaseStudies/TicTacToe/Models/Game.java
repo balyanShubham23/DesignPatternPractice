@@ -90,6 +90,7 @@ public class Game {
             {
                 gameStatus =GameStatus.Ended;
                 winner =this.players.get(lastMovedPlayerIndex);
+                System.out.println("Winner is - " + winner.getName());
                 return;
             }
         }
